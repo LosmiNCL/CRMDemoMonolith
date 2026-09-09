@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37531.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMDemoMonolith.Web", "CRMDemoMonolith\CRMDemoMonolith.Web.csproj", "{890BDE82-22D7-436C-8110-0C397FC457A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMDemoMonolith.UI", "CRMDemoMonolith\CRMDemoMonolith.UI.csproj", "{890BDE82-22D7-436C-8110-0C397FC457A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMDemoMonolith.Core", "CRMDemoMonolith.Core\CRMDemoMonolith.Core.csproj", "{EA97EE59-4A02-4084-83CF-20BF0913AE37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMDemoMonolith.Infrastructure", "CRMDemoMonolith.Infrastructure\CRMDemoMonolith.Infrastructure.csproj", "{C29F4298-A01F-45F0-92F0-79CE66DD4A54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EA97EE59-4A02-4084-83CF-20BF0913AE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA97EE59-4A02-4084-83CF-20BF0913AE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA97EE59-4A02-4084-83CF-20BF0913AE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29F4298-A01F-45F0-92F0-79CE66DD4A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29F4298-A01F-45F0-92F0-79CE66DD4A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29F4298-A01F-45F0-92F0-79CE66DD4A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29F4298-A01F-45F0-92F0-79CE66DD4A54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
