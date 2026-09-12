@@ -6,12 +6,12 @@ namespace CRMDemoMonolith.Core.Domain.Entities
     /// <summary>
     /// Domain Model for Account
     /// </summary>
-    public class Account
+    public class Company
     {
         [Key]
-        public Guid AccountId { get; set; }
+        public Guid CompanyId { get; set; }
 
-        public string? AccountName { get; set; }
+        public string? CompanyName { get; set; }
 
         public string? Phone {  get; set; }
 
@@ -29,7 +29,7 @@ namespace CRMDemoMonolith.Core.Domain.Entities
 
         public DateTime CreatedAt { get; set; }
 
-        public AccountTypeOptions AccountType {  get; set; }
+        public AccountTypeOptions CompanyType {  get; set; }
 
     }
 }
